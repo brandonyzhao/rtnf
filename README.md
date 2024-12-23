@@ -12,7 +12,7 @@ There are quite a few packages used in this project. Notably [jax](https://githu
 
 However, package management with python can be finicky so you may have to fiddle around with the installation if you run into errors. 
 
-To run neural field recovery, you will have to download a series of simulated measurement files for each experiment. These include data such as camera settings, the true refractive field, simulated refracted image measurements, etc. These can be downloaded at [this link](https://caltech.box.com/s/rg5kvbznj6lii52efjjswlda045bz6fr) (~600MB). After downloading, move the archive into the `exp` directory: 
+To run neural field recovery, you will have to download a series of simulated measurement files for each experiment. These include data such as camera settings, the true refractive field, simulated refracted image measurements, etc. These can be downloaded at [this link](http://users.cms.caltech.edu/~byzhao/exp.tar.gz) (~600MB). After downloading, move the archive into the `exp` directory: 
 
     mkdir exp
     mv /path/to/exp.tar.gz exp/exp.tar.gz
